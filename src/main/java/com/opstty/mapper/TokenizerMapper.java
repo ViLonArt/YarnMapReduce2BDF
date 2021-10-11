@@ -19,4 +19,5 @@ public class TokenizerMapper extends Mapper<Object, Text, Text, IntWritable> {
             context.write(word, one);
         }
     }
+
 }
